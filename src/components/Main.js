@@ -6,7 +6,7 @@ import Show from "../pages/Show"
 function Main(props) {
   const [ blog, setBlog ] = useState(null);
 
-  const URL = "https://mytravelblog-backend.herokuapp.com";
+  const URL = "https://mytravelblog-backend.herokuapp.com/blog/";
 
   const getBlog = async () => {
     const response = await fetch(URL);
